@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './system.component.scss'
 })
 export class SystemComponent {
-  // Logic for the SystemComponent can be added here
+  arquivoLink: string = 'https://onvio.com.br/clientcenter/pt/auth?r=%2Fhome'; // Link para o sistema de arquivo
+  powerBiLink: string = 'https://web.hubcount.com.br/index.html#!/tenant/dashboard'; // Link para o Power BI
 }

@@ -329,8 +329,16 @@
     align-items: center;
   }
   .logo-image {
-    width: 63px;
+    width: 150px !important; // Tamanho padrão
     height: auto;
+  
+    @media (max-width: 768px) {
+      width: 80px; // Tamanho menor para telas pequenas
+    }
+  
+    @media (max-width: 576px) {
+      width: 60px; // Tamanho ainda menor para telas muito pequenas
+    }
   }
   .nav-links-container {
     display: flex;

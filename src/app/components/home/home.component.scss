@@ -184,6 +184,7 @@
     display: flex;
     padding: 48px 64px;
     gap: 20px;
+    height: 550px;
   }
   .hero-content {
     flex: 2;
@@ -214,8 +215,8 @@
     font-size: 16px;
   }
   .hero-button {
-    background-color: #11254a;
-    color: #fff;
+    background-color: #fff;
+    color: #11254a;
     border: none;
     padding: 12px 24px;
     font-size: 16px;
